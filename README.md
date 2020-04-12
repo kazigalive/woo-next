@@ -73,12 +73,13 @@ const clientConfig = {
 export default clientConfig;
 ```
 
-* 2. Rename `wooConfig.example.js` to `wooConfig.example.js` and update your React Site URL and WordPressSite URL ( Used access it in common js file. )
+* 2. Rename `wooConfig.example.js` to `wooConfig.js` and update your React Site URL and WordPressSite URL ( Used access it in common js file. )
 
 ```ruby
 const wooConfig = {
-	siteUrl: 'https://xyz.com',
-	graphqlUrl: 'https://xxwordpresssitexx.com/graphql',
+	siteUrl: 'http://example.xyz',
+	consumerKey: 'XXXXXXXXXXXXXXXXXXXXX',
+	consumerSecret: 'XXXXXXXXXXXXXXXXXXXXXX'
 };
 
 module.exports = wooConfig;
